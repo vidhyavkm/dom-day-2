@@ -1,0 +1,40 @@
+What is DOM?
+Document Object model.
+we are going to create the elements tags dynamically.
+
+Create element:
+how to create a element in DOM
+syntax: document.createElement('element name')
+
+Setattribute:
+used to create id and class .
+classname : we can create id and class
+syntax: Setattribute('attributename', 'value');
+('id','idname')
+('class','clasname')
+
+innertext and innerhtml:
+retrives and sets the content in plain text  / retrieves and sets the content in Html format
+we cant insert the html tags                 / we can insert the html tags
+it consider spaces                            /it ignores spaces
+it returns text without an inner element tag
+ 
+
+Get elements:
+getelementbyid: returns all the elementd having the given id value.
+getelementsbyclassname: returns all the elements having the given classname
+getelementsbytagsname: returns all the elements having the given tagname
+
+Queryselector vs Queryselectorall
+
+returns the first element within the document , if there is multiple elements , then it returns only the first matching element
+returns all the elements within the document
+
+Append and appendchild:
+by using append we can get multiple number of elements in the document
+ 
+using appendchild, we can append only one element
+
+we can use append, wr we use appendchild, but cannot do viceversa.
+
+

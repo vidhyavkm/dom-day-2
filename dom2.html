@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color:blueviolet;
+   
+        }
+    </style>
+   
+</head>
+<body>
+    <div id="test"></div>
+    <!-- <button onclick = "stopAnim()">StopAnim</button>
+    <p id="para"></p> -->
+<!-- 
+    <button onclick="window.close()">close</button>
+    <button onclick="window.open()">open</button>
+    <button onclick="window.location.reload()">reload</button> -->
+<script>
+
+    setTimeout(anim, 5000)
+    function anim(){
+        // console.log("anim")
+    var division = document.getElementById('test')
+    // console.log(division)
+    division.style.backgroundColor="pink"
+    division.style.width= "200px"
+    }
+
+//     var paratext = document.getElementById('para')
+//     var clearTime= setTimeout(anim,5000)
+
+//     function stopAnim(){
+//     clearTimeout(clearTime)
+//     console.log("Anim stopped")
+//     paratext.innerText= "Animation Stopped"
+   
+// }
+   
+
+   
+//    setTimeout(timer, 1000)
+//    function timer() {
+//     console.log("this is a settimeout function")
+//  }
+
+//  setTimeout(timer1, 4000)
+//    function timer1() {
+//     console.log("this is the second settimeout function")
+//  }
+
+//  setTimeout(()=> {
+//     console.log("hi everyone in B37")
+//  },3000)
+
+// setTimeout(add,6000,3,2)
+// function add (a,b) {
+//     console.log(a+b)
+// }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+</head>
+<body>
+    <!-- <button id="button" onclick="newClick(event)">Submit</button> -->
+    <button id="button1">ClickMe</button>
+    <script>
+
+// function newClick(event){
+//     console.log("U Click Me")
+//     console.log(event)
+//     console.log(event.target.innerText)
+// }
+
+//DOM
+var button1 = document.getElementById('button1')
+button1.addEventListener('click', function clickEvent(e){
+    console.log("new button clicked")
+    console.log(e)
+    console.log(e.target.id)
+
+})
+
+// console.log(button1)
+</script>
+</body>
+
+</html>

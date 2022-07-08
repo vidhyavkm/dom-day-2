@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+</head>
+<body>
+    <div id="test"></div>
+    <script >
+//         setInterval(handleInterval,6000)
+// function handleInterval(){
+//     console.log("hi everyone")
+// }
+
+// var count=0;
+
+// setInterval(countIncrease, 2000)
+// function countIncrease (){
+//     count++;
+//     console.log(count)
+// } 
+
+var timer = setInterval(count, 1000)
+
+let count1 = 0;
+function count(){
+    count1++;
+    console.log(count1)
+    var division= document.getElementById('test')
+    division.innerText = count1;
+
+    if(count1>=10){
+        clearInterval(timer)
+    }
+    if(count1===10){
+        console.log("WELCOME TO GUVI")
+        // var division= document.getElementById('test')
+    division.innerText ="WELCOME TO GUVI";
+    }
+}
+    </script>
+
+</body>
+
+</html>
